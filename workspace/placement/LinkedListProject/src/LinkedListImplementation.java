@@ -4,17 +4,7 @@ class Node{
 	int data;
 	Node next;
 }
-class Node1
-{
-    int data;
-    Node right, down;
-    Node1(int data)
-    {
-        this.data = data;
-        right = null;
-        down = null;
-    }
-}
+
 public class LinkedListImplementation {
 	public static Node insert(int data, Node head){
 		Node node = new Node();
